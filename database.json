@@ -1,0 +1,446 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Brooks West",
+      "email": "brooksmwest@hotmail.com",
+      "phone": "717-645-1025"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "phone": "717-645-1026"
+    },
+    {
+      "id": 3,
+      "name": "Emily Davis",
+      "email": "emily@email.com",
+      "phone": "717-645-1027"
+    },
+    {
+      "id": 4,
+      "name": "Michael Johnson",
+      "email": "michael.johnson@email.com",
+      "phone": "717-645-1028"
+    },
+    {
+      "id": 5,
+      "name": "Sarah Anderson",
+      "email": "sarah.anderson@email.com",
+      "phone": "717-645-1029"
+    },
+    {
+      "id": 6,
+      "name": "David Lee",
+      "email": "david.lee@email.com",
+      "phone": "717-645-1030"
+    },
+    {
+      "email": "molly.davidson@gmail.com",
+      "fullName": "Molly Davidson",
+      "id": 7
+    },
+    {
+      "email": "Tom@singer.com",
+      "fullName": "Tom Jones",
+      "id": 8
+    },
+    {
+      "email": "Brian@sparkleskates.com",
+      "fullName": "Brian Boytano",
+      "cohort": 0,
+      "id": 9
+    },
+    {
+      "email": "johnny@data.com",
+      "fullName": "Johnny Codington",
+      "cohort": 0,
+      "id": 10
+    },
+    {
+      "email": "kenny@loggins.com",
+      "fullName": "Kenny Loggins",
+      "id": 11,
+      "cohort": null
+    },
+    {
+      "email": "joey@nsync.com",
+      "fullName": "Joey Fatone",
+      "id": 12,
+      "cohort": null
+    },
+    {
+      "email": "mike@email.com",
+      "fullName": "Mike",
+      "id": 13,
+      "cohort": null
+    },
+    {
+      "email": "chris@email.com",
+      "fullName": "Chris",
+      "id": 14
+    },
+    {
+      "email": "mail4bill@gmail.com",
+      "fullName": "Bill West",
+      "id": 15
+    },
+    {
+      "email": "val@nss.org",
+      "fullName": "Val Freeman",
+      "id": 16
+    },
+    {
+      "email": "joe@schmoe.com",
+      "fullName": "Joe Schmoe",
+      "id": 17
+    }
+  ],
+  "items": [
+    {
+      "name": "Yellow-handled shovel",
+      "description": "steel shovel with a long yellow handle, originally purchased from Home Depot",
+      "borrowerName": "Axl Rose",
+      "borrowerEmail": "axl@gunsNroses.com",
+      "typeId": 1,
+      "id": 1,
+      "dateBorrowed": "2023-09-06",
+      "ownerId": 1
+    },
+    {
+      "name": "red toolbox",
+      "description": "a sturdy red toolbox filled with various hand tools like screwdrivers, pliers, and wrenches",
+      "borrowerName": "John Smith",
+      "borrowerEmail": "john.smith@email.com",
+      "typeId": 1,
+      "id": 2,
+      "dateBorrowed": "2023-08-28",
+      "ownerId": 5
+    },
+    {
+      "name": "blue camping tent",
+      "description": "a spacious 4-person camping tent in blue, complete with stakes and rainfly",
+      "borrowerName": "Emily Davis",
+      "borrowerEmail": "emily@email.com",
+      "typeId": 4,
+      "id": 3,
+      "dateBorrowed": "2023-09-01",
+      "ownerId": 1
+    },
+    {
+      "name": "wooden bookshelf",
+      "description": "a sturdy wooden bookshelf with four shelves, perfect for organizing books and decorations",
+      "borrowerName": "Michael Johnson",
+      "borrowerEmail": "michael.johnson@email.com",
+      "typeId": 8,
+      "id": 4,
+      "dateBorrowed": "2023-09-14",
+      "ownerId": 1
+    },
+    {
+      "name": "black leather jacket",
+      "description": "a stylish black leather jacket in size medium, perfect for chilly evenings",
+      "borrowerName": "David Lee",
+      "borrowerEmail": "david.lee@email.com",
+      "typeId": 3,
+      "id": 6,
+      "dateBorrowed": "2023-09-13",
+      "ownerId": 1
+    },
+    {
+      "name": "30 Bricks",
+      "description": "red, and very crumbly",
+      "borrowerName": "molly",
+      "borrowerEmail": "molly.davidson.gmail.com",
+      "typeId": 1,
+      "id": 7,
+      "dateBorrowed": "2023-09-20",
+      "ownerId": 1
+    },
+    {
+      "name": "screwdriver",
+      "description": "red",
+      "borrowerName": "bob",
+      "borrowerEmail": "bob@Bob.com",
+      "typeId": 3,
+      "id": 8,
+      "dateBorrowed": "2023-09-15",
+      "ownerId": 1
+    },
+    {
+      "name": "Hot Dog Buns",
+      "description": "squishy, but maybe a little moldy.  i do want them back though!",
+      "borrowerName": "big bird",
+      "borrowerEmail": "bigbird@hotmail.com",
+      "typeId": 8,
+      "id": 10,
+      "dateBorrowed": "2023-09-18",
+      "ownerId": 2
+    },
+    {
+      "name": "giant mirror",
+      "description": "huge, with rubber pads on the bottom so it sit nicely on a table",
+      "borrowerName": "tony montana",
+      "borrowerEmail": "tony@boogersugar.com",
+      "typeId": 8,
+      "id": 11,
+      "dateBorrowed": "2023-09-15",
+      "ownerId": 3
+    },
+    {
+      "name": "machete",
+      "description": "super dull",
+      "borrowerName": "Jason",
+      "borrowerEmail": "jason@email",
+      "typeId": 1,
+      "dateBorrowed": "",
+      "id": 13,
+      "ownerId": 1
+    },
+    {
+      "name": "big magazine",
+      "description": "old version of Life magazine",
+      "borrowerName": "josh",
+      "borrowerEmail": "bartow@bartow.com",
+      "typeId": 4,
+      "id": 16,
+      "dateBorrowed": "",
+      "ownerId": 10
+    },
+    {
+      "name": "Kitchen Sink",
+      "description": "white and silver",
+      "borrowerName": "Michelle Drainer",
+      "borrowerEmail": "michelle@michelle.ocm",
+      "typeId": 7,
+      "id": 17,
+      "dateBorrowed": "2023-08-23",
+      "ownerId": 1
+    },
+    {
+      "name": "Pipe Wrench",
+      "description": "big and silver.  kinda looks like an aligator",
+      "borrowerName": "Mario form the nintendo",
+      "borrowerEmail": "mario@nintendo.com",
+      "typeId": 4,
+      "dateBorrowed": "",
+      "id": 18,
+      "ownerId": 1
+    },
+    {
+      "name": "Ninja Blender",
+      "description": "super fancy and expensive.  has some scratches",
+      "borrowerName": "Kobayashi Meru",
+      "borrowerEmail": "Kobayashi@ninja.com",
+      "typeId": 4,
+      "dateBorrowed": "",
+      "id": 20,
+      "ownerId": 13
+    },
+    {
+      "name": "Carpet comb",
+      "description": "big with lots of bristles, red handle",
+      "borrowerName": "Oscar the grouch",
+      "borrowerEmail": "oscar@trashcan.com",
+      "typeId": 8,
+      "id": 21,
+      "dateBorrowed": "2023-09-27",
+      "ownerId": 1
+    },
+    {
+      "name": "Booger picker",
+      "description": "ling wiggly yellow wire with a pincher at the end",
+      "borrowerName": "Mr.mcGoo",
+      "borrowerEmail": "mggoo@boogers.com",
+      "typeId": 4,
+      "dateBorrowed": null,
+      "id": 33,
+      "ownerId": 1
+    },
+    {
+      "name": "my antique wine glass",
+      "description": "big, crystal, pink",
+      "borrowerName": "molly",
+      "borrowerEmail": "olly@drinks.com",
+      "typeId": 4,
+      "id": 40,
+      "dateBorrowed": "2023-09-24",
+      "ownerId": 7
+    },
+    {
+      "name": "Big Stanley Cup",
+      "description": "grey, 30ounces, with straw",
+      "borrowerName": "jamie Felts",
+      "borrowerEmail": "jamie@ honkytonk.com",
+      "typeId": 7,
+      "id": 41,
+      "dateBorrowed": "2023-09-26",
+      "ownerId": 4
+    },
+    {
+      "name": "computer mouse",
+      "description": "chdap chinese plastic, scrapes my desk when i use it",
+      "borrowerName": "Dave B",
+      "borrowerEmail": "daveB@mouse.com",
+      "typeId": 4,
+      "id": 42,
+      "dateBorrowed": "2023-09-27",
+      "ownerId": 5
+    },
+    {
+      "name": "Yamaha Keytar",
+      "description": "baby blue, 53 keys, makes danger zone sounds",
+      "borrowerName": "Jim Messina",
+      "borrowerEmail": "messina@messina.com",
+      "typeId": 6,
+      "id": 43,
+      "dateBorrowed": "2023-09-27",
+      "ownerId": 1
+    },
+    {
+      "name": "Black Leather jacket",
+      "description": "looks like the one Fonzie had in happy days, kinda worn out",
+      "borrowerName": "Andrew D. Clay",
+      "borrowerEmail": "diceman@badjokes.com",
+      "typeId": 3,
+      "id": 44,
+      "dateBorrowed": "2023-10-02",
+      "ownerId": 13
+    },
+    {
+      "name": "Coding made clean and quick",
+      "description": "Thick paperback book, heavily used, no pictures",
+      "borrowerName": "brooks west",
+      "borrowerEmail": "brooksmwest@hotmail.com",
+      "typeId": 2,
+      "dateBorrowed": "2023-09-02",
+      "ownerId": 16,
+      "id": 45
+    },
+    {
+      "name": "Jamz for Coding",
+      "description": "smooth beatz with no lyrics vinyl record",
+      "borrowerName": "Zach D'Amico",
+      "borrowerEmail": "zach@codingdrummer.com",
+      "typeId": 2,
+      "dateBorrowed": "2023-10-01",
+      "ownerId": 16,
+      "id": 46
+    },
+    {
+      "name": "50 inch 4k monitor",
+      "description": "huge, but has a few pixels burned out.  it's fine until you notice them, black bezel",
+      "borrowerName": "Fritz McFunky",
+      "borrowerEmail": "fritz@funky.com",
+      "typeId": 4,
+      "id": 48,
+      "dateBorrowed": "2023-10-16",
+      "ownerId": 16
+    },
+    {
+      "name": "Golden Spatula",
+      "description": "solid gold, red ruby in the handle.  Very heavy",
+      "borrowerName": "Al Yankovic",
+      "borrowerEmail": "Weird@al.com",
+      "typeId": 7,
+      "id": 49,
+      "dateBorrowed": "2023-10-03",
+      "ownerId": 14
+    },
+    {
+      "name": "Silver Hammer",
+      "description": "Extremely Heavy, Maxwell will lie and say it's his hammer, but we all know the truth!",
+      "borrowerName": "Maxwell from the song",
+      "borrowerEmail": "maxwell@beatles.com",
+      "typeId": 1,
+      "dateBorrowed": "2023-10-10",
+      "ownerId": 14,
+      "id": 50
+    },
+    {
+      "name": "spoon",
+      "description": "silver, with a leather handle",
+      "borrowerName": "indiana Jones",
+      "borrowerEmail": "indy@harvard.edu",
+      "typeId": 7,
+      "dateBorrowed": "2023-10-18",
+      "ownerId": 14,
+      "id": 52
+    },
+    {
+      "name": "50 foot extensoin cord",
+      "description": "orange and 50 feet long.  it's frayed and somewhat dangerous",
+      "borrowerName": "Ranger Jim",
+      "borrowerEmail": "Jim@parks.com",
+      "typeId": 8,
+      "dateBorrowed": "2023-10-18",
+      "ownerId": 10,
+      "id": 53
+    },
+    {
+      "name": "Exercise ball",
+      "description": "blue, extremely bouncy, almost new",
+      "borrowerName": "Steve Brownlee",
+      "borrowerEmail": "steve@nss.org",
+      "typeId": 5,
+      "id": 54,
+      "dateBorrowed": "2023-09-18",
+      "ownerId": 16
+    },
+    {
+      "name": "Lebowski Sweater",
+      "description": "looks like the one from the Big Lebowski",
+      "borrowerName": "Jeff Bridges",
+      "borrowerEmail": "jeff@bridges.com",
+      "typeId": 3,
+      "id": 55,
+      "dateBorrowed": "2023-10-01",
+      "ownerId": 7
+    },
+    {
+      "name": "Basketball",
+      "description": "Orangeish Brown, Spalding brand, holds air well!",
+      "borrowerName": "Michael Jordan",
+      "borrowerEmail": "michael@bulls.com",
+      "typeId": 8,
+      "dateBorrowed": "2023-10-03",
+      "ownerId": 17,
+      "id": 56
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Tools"
+    },
+    {
+      "id": 2,
+      "name": "Books & Music"
+    },
+    {
+      "id": 3,
+      "name": "Clothes"
+    },
+    {
+      "id": 4,
+      "name": "Electronics & Video Games"
+    },
+    {
+      "id": 5,
+      "name": "Sporting Goods"
+    },
+    {
+      "id": 6,
+      "name": "Musical Instruments & Gear"
+    },
+    {
+      "id": 7,
+      "name": "Kitchen Stuff"
+    },
+    {
+      "id": 8,
+      "name": "Other"
+    }
+  ]
+}
